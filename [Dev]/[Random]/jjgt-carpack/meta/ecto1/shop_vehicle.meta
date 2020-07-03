@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShopVehicleDataArray>
+	<Vehicles>
+        <Item>
+			<lockHash>CU_ecto1_VEH</lockHash>
+			<modelNameHash>ecto1</modelNameHash>
+			<cost value ="0"/>
+			<textLabel>ecto1</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+	</Vehicles>	
+</ShopVehicleDataArray>
