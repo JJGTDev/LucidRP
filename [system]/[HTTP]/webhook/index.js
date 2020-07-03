@@ -1,0 +1,12 @@
+const express = require("express")
+const autoRoutes = require("express-auto-routes")
+const path = require("path")
+const cors = require("cors")
+const bodyParser = require("body-parser")
+const __dirname = path.resolve()
+const server = express()
+server.use(bodyParser.json())
+const autoRouter = autoRoutes(server)
+autoRouter(path.join(__dirname, "./resources/[system]/[HTTP]/webhook/controllers"))
+server.listen(3000, () => console.log("Server is listening"))
+
